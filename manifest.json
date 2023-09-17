@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Extensão Teste",
+    "version": "1.0.1",
+    "description": "Extensão para teste...",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+        "default_popup": "index.html"
+    }
+}
