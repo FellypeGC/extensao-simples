@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Image Changer",
     "version": "1.0.1",
-    "description": "Extensão onde você pode mudar as imagens do seu navegador através do URL da imagem que desejar!",
+    "description": "Extensão onde você pode passar o tempo mudando as imagens do seu navegador através do URL da imagem que desejar!",
     "permissions": ["activeTab", "scripting"],
     "action": {
         "default_popup": "index.html"
