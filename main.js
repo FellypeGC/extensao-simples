@@ -4,7 +4,7 @@ const input = document.querySelector('.input');
 const replaceImages = () => {
     const images = document.querySelectorAll('img');
 
-    images.forEach((image) => image.src = 'asd')
+    images.forEach((image) => image.src = input.value)
 }
 
 form.addEventListener('submit', async (event) => {
