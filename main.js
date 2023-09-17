@@ -7,9 +7,9 @@ const replaceImages = () => {
 form.addEventListener('submit', async (event) => {
     event.preventDefault();
 
-    const [tab] = await edge.tabs.query({ active: true, currentWindow: true});
+    const [tab] = await chrome.tabs.query({ active: true, currentWindow: true});
 
-    edge.scripting.executeScript({
+    chrome.scripting.executeScript({
         target: { tabId: tab.id},
         function: replaceImages,
     });
