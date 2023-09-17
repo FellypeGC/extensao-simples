@@ -1,7 +1,10 @@
 const form = document.querySelector('form');
+const input = document.querySelector('.input');
 
 const replaceImages = () => {
-    document.body.style.background = 'red';
+    const images = document.querySelectorAll('img');
+
+    images.forEach((image) => image.src = 'asd')
 }
 
 form.addEventListener('submit', async (event) => {
